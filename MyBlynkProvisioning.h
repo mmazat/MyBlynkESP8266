@@ -7,11 +7,12 @@
  *                  http://www.blynk.io/
  *
  **************************************************************/
- 
- //#define USE_SPARKFUN_BLYNK_BOARD    // Uncomment the board you are using
+//Define one of the following boards in your board in your code 
+//#define USE_SPARKFUN_BLYNK_BOARD    // Uncomment the board you are using
 //#define USE_NODE_MCU_BOARD        // Comment out the boards you are not using
 //#define USE_WITTY_CLOUD_BOARD
-#define USE_CUSTOM_BOARD          // For all other ESP8266-based boards -
+//#define USE_CUSTOM_BOARD          // For all other ESP8266-based boards -
+
 #define APP_DEBUG        // Comment this out to disable debug prints
 //#define BLYNK_SSL_USE_LETSENCRYPT   // Comment this out, if using public Blynk Cloud
 #define BLYNK_PRINT Serial
