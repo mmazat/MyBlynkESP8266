@@ -15,12 +15,12 @@
  * Board configuration (see examples below).
  */
 
-#if defined(USE_ESP01S_BOARD) //ESP 01
+#if defined(USE_ESP01S_BOARD) //ESP 01S
 
   // Custom board configuration
   #define BOARD_BUTTON_PIN            100 //dummy port for ESP-01                     // Pin where user button is attached
   #define BOARD_BUTTON_ACTIVE_LOW     true                  // true if button is "active-low"
-
+  #define LED_BUILTIN                 2 //LED is connected to GPIO2
   #define BOARD_LED_PIN               LED_BUILTIN         // Set LED pin - if you have a single-color LED attached
   //#define BOARD_LED_PIN_R           15                    // Set R,G,B pins - if your LED is PWM RGB 
   //#define BOARD_LED_PIN_G           12
